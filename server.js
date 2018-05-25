@@ -3,7 +3,6 @@ const http = require('http');
 const WebSocket = require('ws');
 const moment = require('moment');
 const path = require('path');
-const iotHubClient = require('./IoTHub/iot-hub.js');
 
 const app = express();
 
